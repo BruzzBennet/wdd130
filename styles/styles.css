@@ -18,7 +18,7 @@ img{
     height:auto;
     border: 1px solid steelblue;
     padding:2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 15px gray;
 }
 
 p{
@@ -31,11 +31,11 @@ main{
 
 aside{
     width:750px;
-    margin:40px;
+    margin:25px;
     border:1px solid black;
-    padding:5px;
-    background-color:aquamarine;
-    color:black;
+    padding:20px;
+    background-color:steelblue;
+    color:white;
 }
 
 aside img{
