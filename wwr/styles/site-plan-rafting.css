@@ -2,8 +2,8 @@
 :root{
     --primary-color: #5299D3;
     --secondary-color:#A7C6DA;
-    --accent-color-1: #F1DB4B;
-    --accent-color-2:#F08605;
+    --accent1-color: #F1DB4B;
+    --accent2-color:#F08605;
    
     --heading-font:'Cabin', serif;
     --paragraph-font:Inter;
@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6{
 
 header{
     padding:20px;
-    background-color: var(--accent-color-1);
+    background-color: var(--accent1-color);
 }
 
 p{
