@@ -79,3 +79,7 @@ label, input, button, select, textarea{
     display: grid;
     grid-template-rows: 1fr 4fr;
 }
+
+textarea{
+    grid-column: 1/3;
+}
