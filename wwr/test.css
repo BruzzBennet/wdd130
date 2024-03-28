@@ -1,0 +1,9 @@
+div{
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    display:grid;
+    /* position: relative; */
+    border: 1px solid black;
+}

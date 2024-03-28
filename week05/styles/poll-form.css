@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    font-family: Inter;
+    color:navy;
+    background-color: white;
+}
+
+header h1{
+    font-size: 1.5em;
+    margin:2% auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+form{
+    background-color: #eee;
+    width: 35%;
+    margin:0 auto;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap:.5rem;
+    margin:1rem;
+    padding: 1rem;
+}
+
+legend{
+    font-size: 1.3rem;
+    padding: 1%;
+}
+
+label, input, button, select, textarea{
+    font-family: 'Cabin', serif;
+}
+
+label{
+    text-align: right;
+    padding-right:1rem;
+}
+
+input, select, textarea{
+    font-size:1.1rem;
+    padding: 0.25rem;
+}
+
+input[type="checkbox"]{
+    width:25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button{
+    width: 35%;
+    border-radius: 0.5rem;
+    margin:1% auto;
+    background-color: navy;
+    color:white;
+    border: none;
+    padding: 1%;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: steelblue;
+}
+
+footer{
+    margin: 1%;
+    text-align: center;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+
+.fb label{
+    text-align: center;
+}
