@@ -15,9 +15,10 @@
 
 }
 
-/* *{
-     border: 1px solid black; 
-} */
+*{
+    box-sizing: border-box;
+     /* border: 1px solid black;  */
+}
 
 body{
     font-family: var(--paragraph-font);
@@ -73,7 +74,7 @@ nav a:link, nav a:visited{
     color:var(--nav-hover-link-color);
 }
 
-nav a:hover{
+nav a:hover, button:hover{
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);    
 }
@@ -166,12 +167,12 @@ section{
     background-color: #FFFFFF;
 }
 
-section div{
+.history{
     display: flex;
     justify-content: space-around;
 }
 
-section div p{
+.history p{
     width: 35%;
 }
 
@@ -201,3 +202,144 @@ figure img{
     margin-left: auto;
     margin-right: auto;
 } */
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 275px;
+}
+
+.contact{
+    display: grid;
+    width:30%;
+    grid-template-rows:1fr 1fr 1fr;
+    height: 275px;
+}
+
+.contact1{
+    display: grid;
+    width:30%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contact1 img{
+    object-fit: cover;
+    width:100%;
+    height: auto;
+}
+
+.contact1 p{
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.contact p{
+    text-align: center;
+    margin:0;
+    height: 30%;
+}
+
+.contact iframe{
+    width:95%;
+    height: 250px;
+    margin: auto;
+    grid-row: 1/4;
+}
+
+.employees{
+    width: 100%;
+}
+
+.threerows{
+    text-align: left;
+    display: grid;
+    grid-template-rows: repeat(7, 50px);
+}
+
+.fourrows{
+    text-align: left;
+    display: grid;
+    grid-template-rows: repeat(7,50px);
+}
+
+fieldset{
+    border-radius: 0.5rem;
+}
+
+fieldset div{
+ width: 100%;
+ margin: 0 auto;
+}
+
+fieldset h2{
+    text-align: center;
+    padding: 0;
+}
+
+.seguido{
+    
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 165px 225px;
+}
+
+.abajo{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.column1{
+    grid-row: 2/3;
+}
+
+.column2{
+    grid-row: 3/4;
+}
+
+.column1s{
+    grid-row: 2/4;
+    align-self: center;
+}
+
+.column2s{
+    grid-row: 4/7;
+}
+
+.column4{
+    grid-row: 7/9;
+    align-self: center;
+}
+
+.column3{
+    grid-row: 4/5;
+}
+
+input[type="text"]{
+    /* height: 35%; */
+    padding: 0.5rem;
+}
+
+.quiz{
+    display: grid;
+    grid-template-rows: 1fr 75px;
+    grid-template-columns: 1fr 1fr;
+}
+
+button{
+    grid-column: 1/3;
+    width:35%;
+    height:50px;
+    align-self: center;
+    margin: 0 auto;
+    background-color: var(--nav-hover-background-color);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+label{
+    vertical-align: middle;
+    margin:0.5rem;
+    align-self: center;
+}
